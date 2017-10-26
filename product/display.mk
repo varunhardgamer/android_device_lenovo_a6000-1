@@ -16,6 +16,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# Higher fling velocities to smooth scrolling
+# and provide better responsiveness
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.min.fling_velocity=100 \
+    ro.max.fling_velocity=20000
+
 #HWUI Props
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hwui.texture_cache_size=24 \

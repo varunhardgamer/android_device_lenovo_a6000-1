@@ -1,1 +1,1 @@
-add_lunch_combo validus_a6000-userdebug
+add_lunch_combo du_a6000-userdebug
